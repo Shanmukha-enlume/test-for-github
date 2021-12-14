@@ -6,6 +6,6 @@ provider "google" {
 terraform {
   backend "gcs" {
     bucket = "shanmukha_testing"
-    prefix = "terraform/states"
+    prefix = "terraform/state"
   }
 }
