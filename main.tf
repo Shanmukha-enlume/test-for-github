@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "static-site" {
+resource "google_storage_bucket" "bucket" {
   name          = "test-bucket-random-091122"
   location      = "EU"
   force_destroy = true
@@ -16,7 +16,7 @@ resource "google_storage_bucket" "static-site" {
     max_age_seconds = 3600
   }
 }
-resource "google_storage_bucket" "static-site" {
+resource "google_storage_bucket" "bucket" {
   name          = "test-bucket-random-091123"
   location      = "EU"
   force_destroy = true
