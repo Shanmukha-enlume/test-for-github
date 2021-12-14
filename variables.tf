@@ -1,6 +1,6 @@
 variable "project_id" {
   type        = string
-  description = "The Google Cloud Project Id"
+  description = "nifty-acolyte-330817"
 }
 
 variable "region" {
