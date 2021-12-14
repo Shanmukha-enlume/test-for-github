@@ -3,5 +3,5 @@ resource "google_storage_bucket" "bucket" {
 }
 
 resource "google_storage_bucket" "gcs_bucket" {
-  name = "test-bucket-random-091124"
+  name = "test-bucket-random-091123"
 }
